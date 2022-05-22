@@ -1,0 +1,15 @@
+[submodule "libs/clap"]
+	path = libs/clap
+	url = https://github.com/free-audio/clap.git
+[submodule "libs/clap-juce-extensions"]
+	path = libs/clap-juce-extensions
+	url = https://github.com/free-audio/clap-juce-extensions.git
+[submodule "libs/clap-host"]
+	path = libs/clap-host
+	url = https://github.com/free-audio/clap-host.git
+[submodule "libs/clap-plugins"]
+	path = libs/clap-plugins
+	url = https://github.com/free-audio/clap-plugins.git
+[submodule "libs/clap-imgui"]
+	path = libs/clap-imgui
+	url = https://github.com/schwaaa/clap-imgui.git
