@@ -13,3 +13,6 @@
 [submodule "libs/clap-imgui"]
 	path = libs/clap-imgui
 	url = https://github.com/schwaaa/clap-imgui.git
+[submodule "libs/JUCE"]
+	path = libs/JUCE
+	url = https://github.com/juce-framework/JUCE.git
