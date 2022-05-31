@@ -1,18 +1,24 @@
 [submodule "libs/clap"]
 	path = libs/clap
 	url = https://github.com/free-audio/clap.git
+	branch = main
 [submodule "libs/clap-juce-extensions"]
 	path = libs/clap-juce-extensions
 	url = https://github.com/free-audio/clap-juce-extensions.git
+	branch = main
 [submodule "libs/clap-host"]
 	path = libs/clap-host
 	url = https://github.com/free-audio/clap-host.git
+	branch = main
 [submodule "libs/clap-plugins"]
 	path = libs/clap-plugins
 	url = https://github.com/free-audio/clap-plugins.git
+	branch = main
 [submodule "libs/clap-imgui"]
 	path = libs/clap-imgui
 	url = https://github.com/schwaaa/clap-imgui.git
+	branch = main
 [submodule "libs/JUCE"]
 	path = libs/JUCE
 	url = https://github.com/juce-framework/JUCE.git
+	branch = develop
