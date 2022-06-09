@@ -2,7 +2,6 @@ cmake_minimum_required(VERSION 3.20)
 project(TestHost VERSION 0.0.1 LANGUAGES C CXX ASM)
 set(CMAKE_CXX_STANDARD 17)
 add_subdirectory(libs/JUCE)
-add_subdirectory(libs/clap-juce-extensions EXCLUDE_FROM_ALL)
 
 math(EXPR BITNESS "${CMAKE_SIZEOF_VOID_P} * 8" OUTPUT_FORMAT DECIMAL)
 message(STATUS "${PROJECT_NAME} ${BITNESS}-bit, version ${PROJECT_VERSION}, ${CMAKE_BUILD_TYPE} build")
@@ -14,12 +13,6 @@ juce_add_gui_app(${PROJECT_NAME}
   ICON_BIG "${CMAKE_SOURCE_DIR}/resources/images/logo.png"
   MICROPHONE_PERMISSION_ENABLED TRUE
   PLUGINHOST_AU TRUE
-)
-
-clap_juce_extensions_plugin(
-  TARGET ${PROJECT_NAME}
-  CLAP_ID "org.test.test"
-  CLAP_FEATURES audio_effect
 )
 
 target_sources(${PROJECT_NAME}
